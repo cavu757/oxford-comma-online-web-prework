@@ -1,6 +1,6 @@
 def oxford_comma(arr)
   if arr.count == 1 
-    arr.to_s 
+    arr[0]
   else
   end
 end
