@@ -4,6 +4,7 @@ def oxford_comma(arr)
   elsif arr.count == 2 
     arr.join(" and ")
   else
-  
+    last_count = arr[-1].count
+    
   end
 end
