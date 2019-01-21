@@ -4,7 +4,7 @@ def oxford_comma(arr)
   elsif arr.count == 2 
     arr.join(" and ")
   else
-    last_position = arr[-1].length + 1 
+    last_position = -1 * (arr[-1].length + 1)
     new_string = arr.join(", ")
     new_string.insert(last_position, "and ")
   end
